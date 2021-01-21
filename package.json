@@ -5,6 +5,7 @@
   "main": "site/meadowlark.js",
   "dependencies": {
     "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
     "express3-handlebars": "^0.5.2"
   },
   "devDependencies": {},
