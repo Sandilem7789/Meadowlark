@@ -11,7 +11,7 @@ app.set("view engine", "handlebars");
 app.set("port", process.env.port || 3000);
 
 //middeware for serving static files:
-app.use(express.static(__dirname + "./public"));
+app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => res.render("home"));
 app.get("/about", (req, res) => res.render("about"));
